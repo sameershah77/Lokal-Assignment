@@ -1,0 +1,2 @@
+package com.sameer.lokalassignment
+class TranslatedContentModel

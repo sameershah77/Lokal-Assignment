@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black2"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+        <!-- Title -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/title"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Executive"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:id="@+id/bookmark"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_bookmark"
+            android:layout_marginEnd="4dp"
+            app:tint="@color/white2" />
+    </LinearLayout>
+        <!-- Company Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp" >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_company"
+            android:layout_marginEnd="4dp"
+            app:tint="@color/white2" />
+        <TextView
+            android:id="@+id/companyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swiggy"
+            android:textColor="@color/white2"
+            android:textSize="16sp" />
+    </LinearLayout>
+        <!-- Location -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp" >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_location"
+                android:layout_marginEnd="4dp"
+                app:tint="@color/white" />
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chembur, Mumbai"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+
+        <!-- Salary -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/icon_money"
+                android:layout_marginEnd="4dp"
+                app:tint="@color/white" />
+            <TextView
+                android:id="@+id/minSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹12,000"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/toText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/maxSalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹18,000"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Experience -->
+        <TextView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience: 1-2 years"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Openings -->
+        <TextView
+            android:id="@+id/openings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Openings: 5"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Fees Charged -->
+        <TextView
+            android:id="@+id/feesCharged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fees Charged: ₹200"
+            android:textColor="@color/yellow1"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Posted On -->
+        <TextView
+            android:id="@+id/createdOn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posted On: 13 Apr 2025"
+            android:textColor="@color/white2"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+
+
+        <!-- Contact -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/callButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Now"
+            android:backgroundTint="@color/yellow1"
+            android:textColor="@color/black"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/whatsappButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WhatsApp"
+            android:backgroundTint="@color/green1"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More Information:"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_marginTop="24dp" />
+        <!-- Other Details -->
+        <TextView
+            android:id="@+id/otherDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Details abou owsg piuhw [owj d[ojw d[oij [oiwdij [0ij piujqsn [oih pwdioh poih wdo[it timings, incentives, requirements, etc."
+            android:textColor="@color/grey1"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+</ScrollView>
