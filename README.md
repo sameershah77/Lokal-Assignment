@@ -1,1 +1,5 @@
-![Job Details Screenshot](lokal_logo.svg)
+![Job Details Screenshot](IMG-20250413-WA0001.jpg)
+![Job Details Screenshot](IMG-20250413-WA0002.jpg)
+![Job Details Screenshot](IMG-20250413-WA0003.jpg)
+![Job Details Screenshot](IMG-20250413-WA0004.jpg)
+![Job Details Screenshot](IMG-20250413-WA0005.jpg)
