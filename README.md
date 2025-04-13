@@ -1,1 +1,1 @@
-![Job Details Screenshot](screenshots/job_details.png)
+![Job Details Screenshot](lokal_logo.svg)
